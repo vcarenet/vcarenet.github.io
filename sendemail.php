@@ -14,5 +14,4 @@ $headers[] = "Subject: {$subject}";
 $headers[] = "X-Mailer: PHP/".phpversion();
 
 mail($to, $subject, $message, $headers);
-
-die;
+?>
